@@ -12,7 +12,7 @@ export default function Sections() {
             <motion.h2 variants={fadeIn} className="text-3xl md:text-4xl font-semibold text-gray-900 tracking-tight" style={{ fontFamily: 'Rubik, ui-sans-serif, system-ui' }}>
               Built for precision. Designed for scale.
             </motion.h2>
-            <motion.p variants={fadeIn} className="mt-3 text-gray-600 max-w-2xl" style={{ fontFamily: 'Satoshi, ui-sans-serif, system-ui' }}>
+            <motion.p variants={fadeIn} className="mt-3 text-gray-600 max-w-2xl" style={{ fontFamily: 'Manrope, ui-sans-serif, system-ui' }}>
               From schema-driven data to real-time ledgers — Tauriam brings modern software craft to serious business operations.
             </motion.p>
 
@@ -38,7 +38,7 @@ export default function Sections() {
             <motion.h2 variants={fadeIn} className="text-3xl md:text-4xl font-semibold text-gray-900 tracking-tight" style={{ fontFamily: 'Rubik, ui-sans-serif, system-ui' }}>
               How it works
             </motion.h2>
-            <motion.p variants={fadeIn} className="mt-3 text-gray-600 max-w-2xl" style={{ fontFamily: 'Satoshi, ui-sans-serif, system-ui' }}>
+            <motion.p variants={fadeIn} className="mt-3 text-gray-600 max-w-2xl" style={{ fontFamily: 'Manrope, ui-sans-serif, system-ui' }}>
               Get operational in minutes. Scale with confidence.
             </motion.p>
 
@@ -66,7 +66,7 @@ export default function Sections() {
             <motion.h2 variants={fadeIn} className="text-3xl md:text-4xl font-semibold text-gray-900 tracking-tight" style={{ fontFamily: 'Rubik, ui-sans-serif, system-ui' }}>
               Simple pricing for growing teams
             </motion.h2>
-            <motion.p variants={fadeIn} className="mt-3 text-gray-600 max-w-2xl" style={{ fontFamily: 'Satoshi, ui-sans-serif, system-ui' }}>
+            <motion.p variants={fadeIn} className="mt-3 text-gray-600 max-w-2xl" style={{ fontFamily: 'Manrope, ui-sans-serif, system-ui' }}>
               Pay-as-you-go for Pakistani enterprises. No hidden fees.
             </motion.p>
 

@@ -7,13 +7,13 @@ export default function Hero() {
     <div id="home" className="relative isolate pt-24 sm:pt-28 lg:pt-32">
       {/* 3D Background */}
       <div className="absolute inset-0 h-[560px] md:h-[640px] lg:h-[720px]">
-        <Spline scene="https://prod.spline.design/FduaNp3csZktbOi3/scene.splinecode" style={{ width: '100%', height: '100%' }} />
-        {/* Gradient overlay for readability */}
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/10 via-white/60 to-[#F9FAFB]" />
+        <Spline scene="https://prod.spline.design/igThmltzmqv5hkWo/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        {/* Subtle readability gradient (non-blocking) */}
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/0 via-white/20 to-[#F9FAFB]" />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl pt-12 pb-16 sm:pb-20 lg:pt-16 lg:pb-28">
+        <div className="relative z-10 max-w-3xl pt-12 pb-16 sm:pb-20 lg:pt-16 lg:pb-28">
           <motion.h1
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
@@ -29,7 +29,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.05, duration: 0.7 }}
             className="mt-6 text-lg text-gray-600"
-            style={{ fontFamily: 'Satoshi, ui-sans-serif, system-ui' }}
+            style={{ fontFamily: 'Manrope, ui-sans-serif, system-ui' }}
           >
             Tauriam empowers organizations to manage products, people, and finances through a flexible, customizable system — built for efficiency and growth.
           </motion.p>
